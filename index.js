@@ -89,5 +89,7 @@ class Bar extends Animation {
     }
 }
 
-const circle = new Circle('loading');
-circle.start();
+if (!module.parent) {
+    const circle = new Circle('loading');
+    circle.start();
+}

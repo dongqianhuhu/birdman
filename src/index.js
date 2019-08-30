@@ -1,4 +1,3 @@
-const shelljs = require('shelljs/global');
 const { EventEmitter } = require('events');
 
 class Animation extends EventEmitter {
@@ -89,7 +88,7 @@ class Bar extends Animation {
     }
 }
 
-module.export = {
+module.exports = {
     Circle,
     Bar,
 };

@@ -1,3 +1,4 @@
+const shelljs = require('shelljs/global');
 const { EventEmitter } = require('events');
 
 class Animation extends EventEmitter {
